@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["4kVXmt",(r,t)=>{"use strict";var e,n,s,i,u=r=>t=>{var{cdnPrefix:i}=e.useContext(n);return s(r,{...t,imgCdnUrl:i})},c=r=>{var{imgCdnUrl:t,src:e,dispatch:n,...i}=r,u=/^\//.test(e)?"":"/";return s("img",{...i,src:`${t}${u}${e}`})};return[()=>{i=u(c),r({CdnImage:i,default:u})},[r=>e=r,r=>n=r.Environment,r=>s=r.jsx]]},["cDcdfi","2R4xv2","F5FCuN"]]);

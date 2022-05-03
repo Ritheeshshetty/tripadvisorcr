@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["_cZwhS",(s,a)=>{"use strict";var e,t=s=>{s.stopPropagation()},r=({events:s,className:a,children:r})=>e("div",{className:a,...s.reduce(((s,a)=>({...s,[a]:t})),{}),children:r});return[()=>{r.defaultProps={className:void 0},s({default:r,stopPropagation:t})},[s=>e=s.jsx]]},["F5FCuN"]]);

@@ -1,0 +1,281 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+  background: white;
+  margin: 0 6vw;
+  padding-top: 150px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo {
+  font-size: 180%;
+  margin-bottom: 0;
+}
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* max-width: 100%; */
+  margin: 14px 0;
+  max-width: 100vw;
+  overflow: auto;
+}
+.lists li {
+  border: 1.9px solid black;
+  border-radius: 8px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin: 4px;
+  width: 10rem;
+}
+
+.lists li a {
+  text-decoration: none;
+  color: black;
+}
+
+.not-main-image {
+  display: flex-right;
+  justify-content: flex-end;
+  height: 24px;
+  float: right;
+}
+
+.not-main-image:hover {
+  color: white;
+  -webkit-filter: invert(100%) !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+  margin: 5px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: white;
+}
+
+.buttons :hover {
+  background-color: lightgrey;
+}
+
+.buttons-s {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.buttons-s:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+.s-box {
+  display: flex;
+  position: absolute;
+  top: 80vh;
+  left: 25vw;
+  background-color: white;
+  padding: 8px;
+  border-radius: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lists li:hover {
+  background-color: black;
+  text-decoration-color: white;
+  transition: all 0.2s;
+}
+
+.lists li a:hover {
+  color: white;
+}
+
+.second-main-img {
+  padding-right: 5px;
+}
+
+.menu {
+  display: none;
+}
+
+.search-img {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 15%;
+    margin: 0%;
+  }
+  .intro {
+    margin: 0;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    padding-left: 35%;
+  }
+
+  .buttons {
+    display: none;
+  }
+  .menu {
+    display: contents;
+  }
+
+  .search-img {
+    display: contents;
+  }
+
+  .lists li {
+    padding: 12px 15px;
+    margin: 4px;
+    width: 6rem;
+    height: 1rem;
+  }
+
+  .main-image {
+    margin: 0;
+    width: 170%;
+    height: 200%;
+    max-width: 100vw;
+    object-fit: cover;
+  }
+  .s-box {
+    position: absolute;
+    top: 47vh;
+    left: 20vw;
+  }
+  .s-input {
+    padding: 20px;
+    width: 30vw;
+  }
+}
+
+footer {
+  margin: 0%;
+  background-color: rgb(250, 239, 235);
+  width: 92%;
+  height: 100%;
+  padding: 5vw;
+  font-size: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+footer h2 {
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+.left-foot {
+  display: flex;
+}
+
+.left-lists li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.item-foot {
+  padding: 12px;
+}
+
+.item-foot li a:hover {
+  text-decoration: underline;
+}
+
+.left-lists li {
+  list-style: none;
+}
+
+.foot-right {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+}
+
+.foot-right p a {
+  text-decoration: none;
+  color: black;
+}
+
+.foot-right p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* second logo */
+.second-logo h2 {
+  padding-top: 3rem;
+}
+
+/* first tour */
+.tours {
+  display: flex;
+  margin-left: 10px;
+  overflow-x: scroll;
+}
+
+.tours::-webkit-scrollbar {
+  display: none;
+}
+
+.tours a p {
+  text-decoration: none;
+}
+
+.tours-first {
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.tours-first a {
+  padding: 1px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: 550;
+}
+
+.tours-first a:hover {
+  text-decoration: underline;
+}

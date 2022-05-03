@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["jPSRY1",(a,r)=>{"use strict";var s,i,t,e=({margin:a=0,...r})=>t("hr",{className:s("cmDEY",i({margin:a,...r}))});return[()=>{a("default",e)},[a=>(s=a.default,i=a.margin),a=>t=a.jsx]]},["iekllc","F5FCuN"]]);

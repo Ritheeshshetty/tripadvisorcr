@@ -1,0 +1,128 @@
+
+<!-- saved from url=(2909)https://www.jscache.com/static/page_moniker/google-v21522308016a.html#pixelType=PAGEVIEW&lithium=true&path=/&localeTag=en-IN&fullPageUrl=https%3A%2F%2Fwww.tripadvisor.in%2F&pixelList=facebook_dat_pv_img_new_pixel,facebook_dat_pv_img_new_pixel_universal,facebook_plus_landers_pixel_universal,clicktripz_aud_pixel,google_pixel,bing_pixel,dv360_pixel,comscore_pixel,twitter_audience_pixel,dv360_floodlight,dv360_floodlight_uk,pinterest_pixel,dv360_gtag_pixel&tadomain=tripadvisor.in&pageTitle=&reqUnique=eaf24ae6d89b8b524e53b4a60274fc61ae4d45cd&userUnique=1e44d0c820d626ed9202b87729e83ca9f763808a&fbUserUnique=f53ed7d5700a2456826af79760e3c8d6bae284dc1b582e836552ce67397a2ad0&locale=en_IN&countryID=293860&ipCountryAbbrev=IN&seqId=1&sessionId=DF543E5BFF7505E09EB2397D53EDF864&currency=INR&device=Desktop&fbDevice=1&device2=desktop&userGeo=297628&siteType=d&trueServlet=Home&genTrueServlet=Home&fbTrueServlet=A&servlet=Home&geoFeedBucket=all&serverName=www.tripadvisor.in&puid=LIT@S-fWXg@x-r9Mgq4hx@gN&isMobileDevice=n&rtPath=www.tamgrt.com/RT&random=380403208&dmpAudienceIds=17466,17464,17463,17462,17461,17456,17451,17450,17404,17399,17208,17101,16732,16635,16062,15299,17384&audienceIds=17450,16732,17399,17404,17208,17101,17466,16062,16635,17463,17451,17464,15299,17462,17456,17461,17384&taSplit=1&mcid=0&fbChannel=7&isOrganic=true&criteoDedup=0&tasource=OTH&isClickoutYN=no&isLoggedIn=N&securelyLoggedIn=N&login_status=3&stuid=NY1QkB0y0N5WBTK5EZZ2YBri5-iHx6gNgA4nyIVzhJv2Db8oHM64l2aBF558MPLc&countryAlpha2=IN&criteoPartnerId=10514&criteoAttractionPartnerId=30195&criteoHotelAcct=%5Ban%3Dweb-hotels-tripadvisor.com%26cn%3Din%26ln%3Den%2Can%3Dweb-hotels-0-tripadvisor.com%26cn%3Din%26ln%3Den%2Can%3Dweb-hotels-1-tripadvisor.com%26cn%3Din%26ln%3Den%2Can%3Dweb-hotels-2-tripadvisor.com%26cn%3Din%26ln%3Den%5D&flight_originid=&flight_destid=&flight_startdate=2022-02-14&flight_enddate=2022-02-21&flight_oneway=2022-02-14&dynx_itemid=null_null_20220214_20220221&flight_num_tix=1&numSeniors=0&attractionShoppingCartTotalPriceUSD=0.00&facebookuvm_v2UlbScore=0.4170621554528302&facebookuvm_v2UlbBucket=21&facebookUlbScore=0.246872785435&facebookUlbBucket=100&googleExperimentSegment=control&googleUlbScore=0.134803316&googleUlbBucket=2&googleuvm_v2UlbBucket=4&googleuvm_v2UlbScore=0.220435161&UVMBESTSCORE=0.12&UVMSCOPE=UVM_V2&UVMSAVEABLE=0&googleuvm_v2.1UlbBucket=2&googleuvm_v2.1UlbScore=0.12289112263381&googleuvm_v2.1UlbBucketParamName=uvm_display_desktop_bucket&criteoUlbScore=0.12289112263381&criteoUlbBucket=2&criteoUlbScoreCurrent=0.12289112263381&criteoUlbBucketCurrent=2&DBISCORE=0.033922231918152745&DBIFLAG=false&mofSlice=57&mofLastUpdated=20220123&smarterTravelPixelID=gqLWKHSnTxes4YmmtgWkqA&smarterTravelPixelDomain=p.smartertravel.com&isSTConversion=false&googleCRMId=05f55d2f3437d4d8c6a47fecdfa7e444807bbd33&rexSplit=t&NanigansTestSegment=0&sitePerfTestCode=1&is_default_dates=No&pixelName=google_pixel -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+  </head>
+  <body>
+    <script type="text/javascript">
+      var query_string = {};
+      var query = window.location.hash.substring(1);
+      var vars = query.split("&");
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          // If first entry with this name
+        if (typeof query_string[pair[0]] === "undefined") {
+          query_string[pair[0]] = pair[1];
+          // If second entry with this name
+        } else if (typeof query_string[pair[0]] === "string") {
+          var arr = [ query_string[pair[0]], pair[1] ];
+          query_string[pair[0]] = arr;
+          // If third or later entry with this name
+        } else {
+          query_string[pair[0]].push(pair[1]);
+        }
+      }
+
+      var makePropId = function () {
+        var servlet = query_string["servlet"];
+        if (servlet === 'Hotel_Review' ||
+            servlet === 'HotelHighlight' ||
+            servlet === 'ShowUserReviews' ||
+            servlet === 'ShowUserReviewsHotels' ||
+            servlet === 'MobileShowUserReviews' ||
+            servlet === 'MobileHotel_Review' ||
+            servlet === 'MobileHotelHighlight' ||
+            servlet === 'CheapFlightsHome' ||
+            servlet === 'Home' ||
+            servlet === 'HomeRebranded') {
+            return query_string["propId"] || query_string["geoMostPop"] || query_string["loc1"];
+        }
+        var itemList = [];
+        for (var i = 1; i <= 3; i++) {
+            var val = query_string['loc' + i];
+            if (val) {
+                itemList.push(val);
+            } else {
+                break;
+            }
+        }
+        return itemList;
+      };
+      var google_conversion_id = 1020463497;
+      var google_conversion_language = "en";
+      var google_conversion_format = "3";
+      var google_conversion_color = "666666";
+      var google_conversion_label = "VFtrCMfC5AIQiZPM5gM";
+      var google_conversion_value = 0;
+      var device = query_string["device"];
+      var isMobile = device !== "Desktop" && device !== "Tablet";
+      var isDated = "y";
+      if (query_string["dateIn"] === undefined || query_string["dateOut"] === undefined) {
+        isDated = "n";
+      }
+      var google_tag_params = {
+        POS: query_string["locale"],
+        destcity: query_string["geoName"],
+        GeoId: query_string["geoId"],
+        PropId: makePropId(),
+        checkindate: query_string["dateIn"],
+        checkoutdate: query_string["dateOut"],
+        mobile: isMobile ? "y" : "n",
+        servlet: (query_string["pixelType"] === "CLICKOUT" ?  ((isMobile ? "Mobile" : "") + "MetaConversion") :
+        query_string["trueServlet"]),
+        travel_destid: query_string["geoId"],
+        travel_startdate: query_string["dateIn"],
+        travel_enddate: query_string["dateOut"],
+        hrental_startdate: query_string["dateIn"],
+        hrental_enddate: query_string["dateOut"],
+        hrental_totalvalue: query_string["gbv2k"],
+        ulb_bucket: query_string["googleUlbBucket"],
+        tim_intent: query_string["btb_bucket"],
+        user_slice: query_string["mofSlice"],
+        collection_date: query_string["mofLastUpdated"],
+        is_dated: isDated,
+        core_device_type: query_string["device"],
+        mcid: query_string["mcid"]
+      };
+
+      google_tag_params["hrental_id"] = google_tag_params["PropId"];
+      if (query_string["pageType"]) {
+        google_tag_params["travel_pagetype"] = query_string["pageType"];
+      }
+
+      var handleGoogleModelName = function(name) {
+        var tagParamName = "ulb_bucket_" + name;
+        handleGoogleModelNameWithTagName(name, tagParamName);
+      }
+
+      var handleGoogleModelNameWithTagName = function(name, tagParamName) {
+          var fullName = "google" + name + "UlbBucket";
+          if (query_string[fullName]) {
+              google_tag_params[tagParamName] = query_string[fullName];
+          }
+          // These are just for debugging
+          var rawScoreName = "google" + name + "UlbScore";
+          if (query_string[rawScoreName]) {
+              google_tag_params[rawScoreName] = query_string[rawScoreName];
+          }
+      }
+
+      // These strings must correspond with those in UserLevelBiddingCompany.java
+      handleGoogleModelName("uvm_v2");
+      handleGoogleModelNameWithTagName("uvm_complex", "core_uvm_complex");
+      handleGoogleModelNameWithTagName("mobile", "core_mobile_uvm_v2");
+      handleGoogleModelNameWithTagName("uvm_v2.1", "core_uvm_v2_1");
+      handleGoogleModelNameWithTagName("uvm_v2.1", query_string["googleuvm_v2.1UlbBucketParamName"]);
+
+      var EXPERIMENT_SEGMENT_NAME = "googleExperimentSegment";
+      if (query_string[EXPERIMENT_SEGMENT_NAME]) {
+        google_tag_params["google_experiment_segment"] = query_string[EXPERIMENT_SEGMENT_NAME];
+      }
+      var google_custom_params = window.google_tag_params;
+      var google_user_id = query_string["googleCRMId"];
+      var google_remarketing_only = true;
+    </script>
+    <script src="./f(7).txt"></script><script src="./f(8).txt"></script>
+  
+
+</body></html>
